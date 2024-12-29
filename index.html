@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHPRC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/620de8b742.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="10.10_Logo.png" alt="Mdora Logo" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#top">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services-intro">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#google-signin-button">SCHEDULE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#photo-gallery">GALLERY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resources">RESOURCES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+<!-- Banner Section -->
+<section id="banner" class="bg-light text-dark py-5 position-relative">
+  <div class="container position-relative">
+      <!-- Banner Video -->
+      <div class="banner-video">
+          <video autoplay muted loop id="banner-video" class="w-100">
+              <source src="background-video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+
+      <!-- Overlay Text on Video -->
+      <div class="overlay-text text-center position-absolute top-50 start-50 translate-middle">
+          <!-- Replaced the title with an image -->
+          <img src="Screenshot 2024-12-28 at 11.26.01 PM.png" alt="SHPRC Logo" class="img-fluid">
+          <p>Welcome to SHPRC, Stanford's student-run center for exploring sex ed, positivity, resources, products, and more.</p>
+          <a href="#services-intro" class="btn btn-primary text-white text-decoration-none">About Us</a>
+      </div>
+  </div>
+
+  <!-- Bottom Image -->
+  <div class="bottom-image position-absolute w-100">
+      <img src="images/wave1.png" class="img-fluid" alt="Bottom Section Image">
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services-intro" class="services-section">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h1 class="fw-bold">What We Do</h1>
+      <p>Explore the many services we offer to support your sexual health, education, and well-being at Stanford.</p>
+    </div>
+
+    <!-- Service 1 -->
+    <div class="row align-items-center service-item">
+      <div class="col-md-6">
+        <img src="gallery/IMG_0866.PNG" alt="Service 1" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Get Counselling & Become a Counsellor</h2>
+        <p>Visit our counsellors at Vaden, 2nd floor, for sex ed, pregnancy, relationships. Wanna join our counsellor cuties? Enroll in Wellness 191.</p>
+        <a href="https://navigator.stanford.edu/classes/1254/4871" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+    <!-- Service 2 -->
+    <div class="row align-items-center service-item flex-row-reverse">
+      <div class="col-md-6">
+        <img src="gallery/IMG_0863.PNG" alt="Service 2" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Shop Fun Products</h2>
+        <p>Visit us at Vaden or fill out our Google Form to place your order anonymously and pick it up at our Vaden location.</p>
+        <a href="https://linktr.ee/SHPRC_Stanford" class="btn btn-primary">Order Now</a>
+      </div>
+    </div>
+    <!-- Service 3 -->
+    <div class="row align-items-center service-item">
+      <div class="col-md-6">
+        <img src="gallery/Stanford_Logo.webp" alt="Service 3" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Access Health & Title IX Resources</h2>
+        <p>On our website we've shared a list of resources for STI testing, pregnancy testing, TitleIX resources at Stanford and outside. Visit us at Vaden for more information.</p>
+        <a href="#resources" class="btn btn-primary">View Resources</a>
+      </div>
+    </div>
+    <!-- Service 4 -->
+    <div class="row align-items-center service-item flex-row-reverse">
+      <div class="col-md-6">
+        <img src="gallery/IMG_0868.PNG" alt="Service 4" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Pick Up Staff Packs for RAs</h2>
+        <p>Access the RA staff pack spreadsheet to put in your order and select your pick-up date at our Vaden location.</p>
+        <a href="https://docs.google.com/spreadsheets/d/1jT5_Klu7Fs_NkhzNi9ru54Fj9wmr5pj3q5mouidUagI/edit?usp=sharing" class="btn btn-primary">Order Staff Pack</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Schedule Section -->
+<section id="schedule" class="schedule-section py-5">
+  <div class="container text-center">
+    <!-- Image as Title -->
+    <div class="mb-4">
+      <img src="schedule.png" alt="Schedule" class="img-fluid" style="max-width: 50%; height: auto;">
+    </div>
+
+    <p class="mb-5">Stay updated with our work hours, upcoming events, and activities!</p>
+    
+    <div class="calendar-container shadow-lg rounded" style="overflow: hidden; max-width: 100%; margin: 0 auto;">
+      <iframe 
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&src=ZGliYWRpbjJAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=MGE5NTJiOGJjY2QyNjZhY2M4M2I2YTRjODFkMDFlZWYxZmFkNWY4MWM3YjFjNTkzOWVmNWNlODAxZDg4MTAxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTA2MTQyMDc3NDE4ODYwODY3MTc1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19ocGdqamxsdm9mcTkwdG1jNmFkbG9qZThob0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%23A79B8E&color=%230047a8&color=%230B8043&color=%23E67C73">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Photo Gallery Section -->
+<section id="photo-gallery" class="photo-gallery">
+  <div class="gallery-header text-center">
+    <h1 class="gallery-title">Photo Gallery</h1>
+    <p class="gallery-subtitle">Sex Week 2024 :)</p>
+  </div>
+  <div class="gallery-container">
+    <div class="photo photo-1"></div>
+    <div class="photo photo-2"></div>
+    <div class="photo photo-3"></div>
+    <div class="photo photo-4"></div>
+    <div class="photo photo-5"></div>
+    <div class="photo photo-6"></div>
+    <div class="photo photo-7"></div>
+    <div class="photo photo-8"></div>
+    <div class="photo photo-9"></div>
+  </div>
+</section>
+
+<!-- Resources Section -->
+<section id="resources" class="bg-light py-5">
+  <div class="container">
+    <!-- Image as Title -->
+    <div class="text-center mb-4">
+      <img src="resources.png" alt="Health & TitleIX Resources" class="img-fluid" style="max-width: 50%; height: auto;">
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="resource-card">
+                <h4>STI Testing</h4>
+                <p>You can receive STI testing through Stanford resources or outside depending on your needs. Visit us at Vaden for more information.</p>
+                <a href="http://vaden.stanford.edu/medical/sti_considerations.html" target="_blank" class="btn btn-primary">Vaden (Stanford)</a>
+                <a href="http://www.plannedparenthood.org/health-center/centerDetails.asp?f=2310&a=90130&v=details" target="_blank" class="btn btn-primary">Planned Parenthood (Outside)</a>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="resource-card">
+                <h4>Pregnancy Testing</h4>
+                <p>We offer free pregnancy tests at our location at Vaden, 2nd floor, alongside a pregnancy counsel. You can find resources for contraceptives and Plan B through Stanford or outside.</p>
+                <a href="https://vaden.stanford.edu/medical-services/appointments-medical-services/health-maintenance-and-prevention" target="_blank" class="btn btn-primary">Vaden Pregnancy Test (Stanford)</a>
+                <a href="https://www.plannedparenthood.org/health-center/california/mountain-view/94040/mountain-view-health-center-2310-90130/pregnancy-testing-options" target="_blank" class="btn btn-primary">Planned Parenthood Pregnancy Test (Outside)</a>
+                <a href="https://vaden.stanford.edu/pharmacy/emergency-contraception" target="_blank" class="btn btn-primary">Vaden Plan B (Stanford)</a>
+                <a href="https://www.plannedparenthood.org/health-center/california/mountain-view/94040/mountain-view-health-center-2310-90130/emergency-contraception" target="_blank" class="btn btn-primary">Planned Parenthood Plan B (Outside)</a>
+                <a href="https://vaden.stanford.edu/pharmacy/emergency-contraception" target="_blank" class="btn btn-primary">Old Union bathroom (Stanford)</a>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="resource-card">
+                <h4>TitleIX at Stanford</h4>
+                <p>Stanford has multiple offices for TitleIX cases reporting and mental/emotion support for survivors. SHPRC is available to educate and prevent sexual assault to make our campus safer for everyone.</p>
+                <a href="https://vaden.stanford.edu/get-help-now/confidential-support-team" target="_blank" class="btn btn-primary">The Confidential Support team CST (Stanford)</a>
+                <a href="https://share.stanford.edu/" target="_blank" class="btn btn-primary">SHARE: Education Team (Stanford)</a>
+                <a href="http://caps.stanford.edu/" target="_blank" class="btn btn-primary">Counseling and Psychological Services (Stanford)</a>
+                <a href="https://weiland.stanford.edu/" target="_blank" class="btn btn-primary">Weiland Health Initiative (Stanford)</a>
+                <a href="http://www.stanford.edu/dept/helpcenter/" target="_blank" class="btn btn-primary">Stanford Faculty & Staff Help Center (Stanford)</a>
+                <a href="http://religiouslife.stanford.edu/" target="_blank" class="btn btn-primary">Office for Religious Life (Stanford)</a>
+                <a href="https://resed.stanford.edu/student-support" target="_blank" class="btn btn-primary">Undergraduate Residence Deans (Stanford)</a>
+                <a href="http://glo.stanford.edu/" target="_blank" class="btn btn-primary">Graduate Life Office (Stanford)</a>
+                <a href="http://www.stanford.edu/group/bridge/" target="_blank" class="btn btn-primary">The Bridge (Stanford)</a>
+                <a href="http://www.stanford.edu/dept/icenter/" target="_blank" class="btn btn-primary">Bechtel International Center (Stanford)</a>
+              </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<section id="footer" class="bg-light py-5">
+  <!-- Top Image -->
+  <div class="footer-top-image">
+      <img src="images/wave2.png" alt="Footer Top Image" class="img-fluid">
+  </div>
+  
+  <div class="container">
+      <div class="row gy-4">
+          <div class="col-md-4 text-center">
+              <img src="10.10_Logo.png" alt="Logo" class="img-fluid">
+              <p>Stanford's Sexual Health Peer Resource Center</p>
+          </div>
+          <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <p><i class="fa fa-map-marker"></i> SHPRC Office, 2nd floor, Vaden, Stanford Univsersity, CA</p>
+              <p><i class="fa fa-phone"></i> xxx-xxx-xxxx</p>
+              <p><i class="fa fa-envelope"></i> shprc.publicity@gmail.com</p>
+          </div>
+          <div class="col-md-4 text-center">
+              <h4>Follow Us</h4>
+              <a href="https://www.instagram.com/shprc_stanford/" target="_blank" class="text-decoration-none">
+                  <i class="fab fa-instagram fa-3x"></i>
+              </a>
+              <p class="mt-2">Check out our Instagram for updates!</p>
+          </div>
+      </div>
+      <hr>
+      <p class="text-center">Website Crafted by SHPRC Stanford.</p>
+  </div>
+</section>
+
+<!-- Smooth Scroll -->
+<script src="smooth-scroll.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+    <!-- Smooth Scroll -->
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/67705c8749e2fd8dfe0003c3/1ig7eisdn';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+</html>
