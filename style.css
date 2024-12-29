@@ -1,0 +1,415 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#a517ba, #772a72);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/* ----------- Banner Section --------------- */
+#banner {
+    position: relative; /* Makes it possible to position the text above the image */
+    background-image: linear-gradient(to right, #a517ba, #772a72);
+    padding-top: 5%; /* Optional, adjust padding */
+    padding-bottom: 100px !important;
+}
+
+/* Banner Image */
+#banner .banner-video video {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the section area without distortion */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure proper centering */
+}
+
+/* Overlay Text Styling */
+#banner .overlay-text {
+    color: white; /* Text color */
+    padding: 20px;
+    text-align: center;
+    max-width: 80%; /* Optional: sets max width of the text area */
+    width: 100%;
+}
+
+/* Centering the text in the middle of the image */
+#banner .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text both vertically and horizontally */
+}
+
+/* Button Styling */
+#banner .btn-primary {
+    box-shadow: none;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #8ed3fb, #371a94);
+    cursor: pointer;
+}
+
+.bottom-image {
+    position: absolute;
+    bottom: 0 !important; /* Pin to the bottom of the section */
+    left: 0;
+    width: 100%; /* Make the image take the full width */
+}
+
+.bottom-image img {
+    width: 100%; /* Ensure image spans the full width */
+    height: 30px; /* Maintain aspect ratio */
+}
+
+/*-----------Google Calendar Section-------------*/
+#schedule {
+    background-color: #f9f9f9;
+  }
+  
+  #schedule h2 {
+    font-size: 2rem;
+    color: #772a72;
+  }
+  
+  .calendar-container {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+/*--------------services section-------------*/
+.services-section {
+    background-color: #fff; /* Optional: Background for the entire section */
+    padding: 60px 20px;
+}
+
+.service-item {
+    margin-bottom: 40px; /* Space between services */
+}
+
+.service-item img {
+    max-width: 100%; /* Ensure images fit their container */
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.service-item h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+.btn-primary {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px !important; /* More rounded edges */
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to right, #8ed3fb, #371a94);
+    border: none !important; /* Removes border completely */
+    display: inline-block; /* Ensures proper spacing */
+    color: #fff; /* Ensures text color contrasts well */
+    font-weight: bold; /* Optional: make the text bold */
+}
+
+.resource-card a:hover {
+    background-image: linear-gradient(to left, #8ed3fb, #371a94); /* Optional hover effect */
+    color: #fff;
+    text-decoration: none; /* Prevents underline on hover */
+}
+
+/* Add space between buttons (vertical and horizontal) */
+.service-item .btn {
+    margin-top: 10px;  /* Adds vertical space between buttons */
+    margin-bottom: 10px; /* Adds vertical space between buttons */
+    margin-right: 10px; /* Adds horizontal space between buttons if they are in a row */
+}
+
+@media (max-width: 768px) {
+    .service-item {
+        text-align: center; /* Center-align text for smaller screens */
+    }
+
+    .service-item img {
+        margin-bottom: 20px; /* Add spacing below images on smaller screens */
+    }
+
+    .service-item.flex-row-reverse {
+        flex-direction: column-reverse !important; /* Stack image and text for smaller screens */
+    }
+}
+
+/*-------------footer section----------------*/
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #772a72);
+    color: #fff;
+    padding-top: 0 !important; /* Remove top padding */
+}
+
+.footer-top-image {
+    width: 100% !important; /* Ensure the image takes up full width */
+    margin-bottom: 50px; /* Remove any margin below the image */
+}
+
+.footer-top-image img {
+    width: 100%; /* Make the image span the full width of the section */
+    height: 30px; /* Maintain aspect ratio */
+    display: block; /* Ensure there is no spacing around the image */
+    margin: 0; /* Remove any margin around the image */
+}
+
+/* Other footer styles */
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #8ed3fb, #371a94);
+    cursor: pointer;
+}
+
+hr {
+    background-color: #fff;
+}
+
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+hr {
+    background-color: #fff;
+}
+
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Gallery Section Styling */
+.photo-gallery {
+    background-color: #fff;
+    padding: 40px 20px;
+  }
+  .gallery-header {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-subtitle {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  .gallery-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: 150px; /* Default row height */
+  }
+  
+  .photo {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px; /* Optional: Add rounded corners */
+    transition: transform 0.3s ease;
+  }
+  
+  .photo:hover {
+    transform: scale(1.05); /* Optional: Zoom effect on hover */
+  }
+  
+  /* Assign different dimensions to specific photos */
+  .photo-1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url('gallery/IMG_0860.PNG');
+  }
+  
+  .photo-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('gallery/IMG_0861.PNG');
+  }
+  
+  .photo-3 {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-image: url('gallery/IMG_0862.PNG');
+  }
+  
+  .photo-4 {
+    grid-column: span 1;
+    grid-row: span 2;
+    background-image: url('gallery/IMG_0863.PNG');
+  }
+  
+  .photo-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('gallery/IMG_0865.PNG');
+  }
+  
+  .photo-6 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url('gallery/IMG_0866.PNG');
+  }
+  
+  .photo-7 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('gallery/IMG_0867.PNG');
+  }
+  .photo-8 {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-image: url('gallery/IMG_0868.PNG');
+  }
+  
+  .photo-9 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('gallery/IMG_0869.PNG');
+  }
+/*----------- Resources Section ----------------*/
+
+#resources {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#resources h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.resource-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.resource-card h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.resource-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.resource-card a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to right, #8ed3fb, #371a94);
+    border: none;
+    display: inline-block; /* Ensures proper spacing */
+    margin-bottom: 10px; /* Adds vertical space between buttons */
+}
+
+.resource-card a:hover {
+    background-image: linear-gradient(to right, #8ed3fb, #371a94);
+    color: #fff;
+}
+
+/* Hover effect for the card */
+.resource-card:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+    .resource-card {
+        margin-bottom: 30px;
+    }
+}
