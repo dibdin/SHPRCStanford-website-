@@ -302,54 +302,54 @@ hr {
   .photo-1 {
     grid-column: span 2;
     grid-row: span 2;
-    background-image: url('gallery/IMG_0860.PNG');
+    background-image: url('IMG_0860.PNG');
   }
   
   .photo-2 {
     grid-column: span 1;
     grid-row: span 1;
-    background-image: url('gallery/IMG_0861.PNG');
+    background-image: url('IMG_0861.PNG');
   }
   
   .photo-3 {
     grid-column: span 2;
     grid-row: span 1;
-    background-image: url('gallery/IMG_0862.PNG');
+    background-image: url('IMG_0862.PNG');
   }
   
   .photo-4 {
     grid-column: span 1;
     grid-row: span 2;
-    background-image: url('gallery/IMG_0863.PNG');
+    background-image: url('IMG_0863.PNG');
   }
   
   .photo-5 {
     grid-column: span 1;
     grid-row: span 1;
-    background-image: url('gallery/IMG_0865.PNG');
+    background-image: url('IMG_0865.PNG');
   }
   
   .photo-6 {
     grid-column: span 2;
     grid-row: span 2;
-    background-image: url('gallery/IMG_0866.PNG');
+    background-image: url('IMG_0866.PNG');
   }
   
   .photo-7 {
     grid-column: span 1;
     grid-row: span 1;
-    background-image: url('gallery/IMG_0867.PNG');
+    background-image: url('IMG_0867.PNG');
   }
   .photo-8 {
     grid-column: span 2;
     grid-row: span 1;
-    background-image: url('gallery/IMG_0868.PNG');
+    background-image: url('IMG_0868.PNG');
   }
   
   .photo-9 {
     grid-column: span 1;
     grid-row: span 1;
-    background-image: url('gallery/IMG_0869.PNG');
+    background-image: url('IMG_0869.PNG');
   }
 /*----------- Resources Section ----------------*/
 
