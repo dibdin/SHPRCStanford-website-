@@ -2,6 +2,8 @@
 
 **SHPRC** (Sexual Health Peer Resource Center) at Stanford is a student-run center for sexual health education, resources, and peer counseling.
 
+Quick hosted website link: https://shprcstanford.com/
+
 ---
 
 ## Project Overview
