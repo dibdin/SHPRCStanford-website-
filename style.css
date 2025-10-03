@@ -260,6 +260,33 @@ hr {
     text-align: center;
 }
 
+/* Product Inventory Styling */
+/* Product Inventory Section Styling */
+.product-inventory {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.inventory-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inventory-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.inventory-subtitle {
+    font-size: 1.2rem;
+    color: #777;
+    max-width: 800px;
+    margin: 0 auto; /* centers the paragraph */
+    line-height: 1.5;
+}
+
 /* Gallery Section Styling */
 .photo-gallery {
     background-color: #fff;
